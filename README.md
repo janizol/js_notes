@@ -118,5 +118,3 @@ document.getElementById("myButton").addEventListener("click", () => {
 ---
 
 Each paradigm offers different benefits, so the choice depends on the problem you’re solving and the structure best suited for it.
-
-Janizol edited on 5 November for students
