@@ -20,13 +20,13 @@ Used for mathematical operations.
 | `%`      | Modulus (Remainder)| `7 % 3`           | `1`    |
 
 **Example**:
-\`\`\`javascript
+```javascript
 let x = 10;
 let y = 3;
 
 console.log(x + y); // 13
 console.log(x % y); // 1
-\`\`\`
+```
 
 #### 2. **Comparison Operators**  
 Used to compare two values and return a boolean (`true` or `false`).
@@ -40,12 +40,12 @@ Used to compare two values and return a boolean (`true` or `false`).
 | `!=`     | Not equal to        | `10 != "10"`  | `false` |
 
 **Example**:
-\`\`\`javascript
+```javascript
 let age = 18;
 
 console.log(age >= 18); // true
 console.log(age === "18"); // false
-\`\`\`
+```
 
 #### 3. **Logical Operators**  
 Used to combine or invert conditions.
@@ -57,19 +57,19 @@ Used to combine or invert conditions.
 | `!`      | Logical NOT        | `!true`            | `false`|
 
 **Example**:
-\`\`\`javascript
+```javascript
 let isAdult = true;
 let hasID = false;
 
 console.log(isAdult && hasID); // false
 console.log(isAdult || hasID); // true
-\`\`\`
+```
 
 ### Use Case for Operators:
 Operators are used in calculations, making decisions, or processing data.
 
 **Example**:
-\`\`\`javascript
+```javascript
 let price = 100;
 let discount = 20;
 let isSale = true;
@@ -79,7 +79,7 @@ if (isSale) {
 }
 
 console.log(\`The final price is \${price}\`); // The final price is 80
-\`\`\`
+```
 
 ---
 
@@ -97,13 +97,13 @@ Variables are containers for storing data. In JavaScript, you can create variabl
 | `const` | Used for variables that don't change.  |
 
 **Example**:
-\`\`\`javascript
+```javascript
 let name = "Alice"; // Declaring a variable using let
 const PI = 3.14;    // Declaring a constant variable
 
 console.log(name);  // Alice
 console.log(PI);    // 3.14
-\`\`\`
+```
 
 ### Rules for Variable Names
 1. Must start with a letter, `$`, or `_`.
@@ -111,25 +111,25 @@ console.log(PI);    // 3.14
 3. Are case-sensitive (`myName` is different from `myname`).
 
 **Example**:
-\`\`\`javascript
+```javascript
 let age = 25;
 let Age = 30;
 
 console.log(age); // 25
 console.log(Age); // 30
-\`\`\`
+```
 
 ### Use Case for Variables:
 Variables store user data, configuration settings, or results from calculations.
 
 **Example**:
-\`\`\`javascript
+```javascript
 let userName = "Bob";
 let userAge = 29;
 
 console.log(\`Name: \${userName}, Age: \${userAge}\`);
 // Output: Name: Bob, Age: 29
-\`\`\`
+```
 
 ---
 
@@ -141,50 +141,50 @@ console.log(\`Name: \${userName}, Age: \${userAge}\`);
 Outputs data to the browser console. Great for debugging.
 
 **Example**:
-\`\`\`javascript
+```javascript
 console.log("Hello, World!");
-\`\`\`
+```
 
 #### 2. **\`alert()\`**  
 Displays a popup alert box (used sparingly).
 
 **Example**:
-\`\`\`javascript
+```javascript
 alert("Welcome to the site!");
-\`\`\`
+```
 
 #### 3. **\`document.write()\`**  
 Writes directly to the webpage (not commonly used).
 
 **Example**:
-\`\`\`javascript
+```javascript
 document.write("This is some text on the page.");
-\`\`\`
+```
 
 #### 4. **\`innerHTML\`**  
 Changes the content of an HTML element dynamically.
 
 **Example**:
-\`\`\`javascript
+```javascript
 document.getElementById("output").innerHTML = "Hello, JavaScript!";
-\`\`\`
+```
 
 **HTML**:
-\`\`\`html
+```html
 <div id="output"></div>
-\`\`\`
+```
 
 ### Use Case for Outputs:
 Outputs are used to display results, debug applications, or interact with users.
 
 **Example**:
-\`\`\`javascript
+```javascript
 let userName = "Alice";
 
 console.log(\`Welcome, \${userName}!\`); // Logs a greeting to the console
 alert(\`Hello, \${userName}!\`);         // Displays an alert with a message
 document.write(\`Hi, \${userName}!\`);   // Writes a message on the webpage
-\`\`\`
+```
 
 ---
 
