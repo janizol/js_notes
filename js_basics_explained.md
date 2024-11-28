@@ -53,7 +53,7 @@ Used to combine or invert conditions.
 | Operator | Description        | Example            | Result |
 |----------|--------------------|--------------------|--------|
 | `&&`     | Logical AND        | `true && false`    | `false`|
-| `||`     | Logical OR         | `true || false`    | `true` |
+| `\|\|`     | Logical OR         | `true \|\| false`    | `true` |
 | `!`      | Logical NOT        | `!true`            | `false`|
 
 **Example**:
